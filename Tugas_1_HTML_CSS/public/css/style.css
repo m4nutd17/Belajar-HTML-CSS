@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	background-image: url(../img/pattern.jpg);
+	background-size: cover;
+}
+
+.header-content {
+	background-color: white;
+	width: 100%;
+	height: 45px;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.content-list {
+	padding-bottom: 5px;
+}
+
+.logo {
+	width: 140px;
+	float: left;
+	margin-top: 5px;
+}
+
+li {
+	font-family: "Slabo 27px";
+	font-weight: bold;
+	list-style: none;
+	float: right;
+	padding: 0px 10px 100px 10px;
+	color: blue;
+	display: inline;
+}
+
+/*Selector for Content Page */
+
+section {
+	background-color: white;
+	width: 70%;
+	margin: 55 auto 0 auto;
+}
+
+.title {
+	font-family: "Arial";
+	font-size: 28px;
+	padding-top: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.title1 {
+	font-family: "Slabo";
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.article-list {
+	margin-left: 5px;
+}
+
+article {
+	padding-top: 10px;
+}
+
+h3 {
+	margin-top: 25px;
+	font-size: 16px;
+}
+
+p {
+	font-size: 14px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #dee7ec;
+}
+
+/*Selector for Content Section*/
+.container-profile {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 18px 161px;
+}
+
+.kante-card {
+	width: 301px;
+	height: 390;
+}
+
+.kante-stat {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.more-info {
+	margin: 30px;
+}
+
+.kante-link {
+	color: #000;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	font-size: 18px;
+	font-family: "Arial";
+	text-align: center;
+}
+
+/*Selector for Footer Page*/
+footer {
+	background-color: black;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 40px;
+}
+
+h5 {
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+}
