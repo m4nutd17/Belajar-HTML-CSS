@@ -56,26 +56,14 @@ section {
 	font-weight: bold;
 }
 
-.article-list {
-	margin-left: 5px;
-}
-
-article {
-	padding-top: 10px;
-}
-
-h3 {
-	margin-top: 25px;
-	font-size: 16px;
-}
-
 p {
 	font-size: 14px;
 	padding-bottom: 10px;
-	border-bottom: 2px solid #dee7ec;
 }
 
 /*Selector for Content Section*/
+
+/*Selector for Player Card*/
 .container-profile {
 	display: flex;
 	flex-direction: row;
@@ -88,14 +76,62 @@ p {
 	height: 390;
 }
 
+/*Selector for Player Info*/
+.player-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350;
+    padding: 20px 10px;
+}
+
+.row-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 80%;
+}
+
+.info-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+	border-bottom: 2px solid #dee7ec;
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+}
+
+.info-1 p {
+	padding-left: 10px;
+	font-weight: bold;
+	font-family: "Arial";
+}
+
+.key-player {
+    height: auto;
+    width: 50%;
+}
+
+.value-player {
+    height: auto;
+    width: 50%;
+}
+
+/*Selector for Stat Section*/
 .kante-stat {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
 }
 
+/*Selector for More Info Link*/
 .more-info {
 	margin: 30px;
+	padding: 30;
 }
 
 .kante-link {
@@ -112,8 +148,7 @@ p {
 footer {
 	background-color: black;
 	width: 100%;
-	height: 40px;
-	margin-bottom: 40px;
+	height: 50px;
 }
 
 h5 {
